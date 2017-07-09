@@ -15,6 +15,8 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
+	/* Looks like I deleted an optionnal if statement */
+	/* I thing that was something about SDL_WasInit ... */
 	{
 		/* Window Creation */
 		SDL_Window* pWindow = NULL;
